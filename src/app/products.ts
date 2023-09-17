@@ -1,28 +1,35 @@
 export interface Product {
   id: number;
   name: string;
-  price: number;
-  description: string;
+  peso:string;
+  dimensiones: string;
+  colores: string;
+  descripcion: string;
 }
 
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Cubierta UPVC',
+    peso: '5.1 Kg/mt2',
+    dimensiones: 'Ancho: 1.07 mts x Largo 11.80 mts Calibre 2.5 mm',
+    colores: 'Azul, Blanco, Rojo, Verde',
+    descripcion: 'Cubierta UPVC para techos livianos'
   },
   {
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Cubierta UPVC Cresta Baja',
+    peso: '3.96 Kgs/mt2',
+    dimensiones:'Ancho 1.13 mts x Largo 11.80 mts Calibre 2.0 mm',
+    colores: 'Blanco, Rojo',
+    descripcion: 'Cubiertas UPVC ideales para bodegas y almacenes'
   },
   {
     id: 3,
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: 'Cubierta UPVC Reforzada',
+    peso: '4.96 kgs/mt2',
+    dimensiones: 'Ancho 1.05 mts x Largo 11.80 mts Calibre 2.5 mm',
+    descripcion: 'Cubiertas UPVC reforzadas para techos bajos o expuertos a vientos fuertes'
   }
 ];
 
